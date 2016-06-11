@@ -1,0 +1,31 @@
+.container {
+    width: 800px;
+}
+
+.col-btn {
+	padding: 10px;
+	font: 16px/1.5 "microsoft yahei";
+	cursor: pointer;
+	background: #ddd;
+}
+
+.col-btn:hover {
+	background: #ff9900;
+	color: #fff;
+}
+
+.col-room {
+	background: #333;
+	height: 60px;
+	margin: 5px;
+	color: #fff;
+}
+
+.col-room:nth-child(6n+1) {
+	margin-left: 0;
+}
+
+.col-room a {
+	color: #fff;
+	text-decoration: none;
+}

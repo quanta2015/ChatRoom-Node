@@ -1,0 +1,13 @@
+<link rel="stylesheet" href="/stylesheets/chatroom.css">
+<script src="javascripts/chatroom.js"></script>
+
+<div class="container">
+    <div class="row">
+    	<div class="col-md-12 col-btn">Add ChatRoom</div>	
+    </div>
+    <div class="row row-room">
+        {{#each entries}}
+            <div class="col-md-2 col-room"><a href="chat/{{roomname}}{{id}}">{{roomname}}{{id}}</a></div>
+        {{/each}}
+    </div>
+</div>
